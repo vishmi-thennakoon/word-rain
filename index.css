@@ -1,0 +1,17 @@
+.drop {
+    color: #ff0000;
+    font-size: 20px;
+    position: fixed;
+    top: -20px;
+    animation: rains 1s linear infinite;
+}
+@keyframes rains {
+    from {
+        font-size: 20px;
+        top: -20px;
+    }
+    to {
+        font-size: 20px;
+        top: 100vh;
+    }
+}
