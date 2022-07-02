@@ -1,17 +1,26 @@
 .drop {
-    color: #ff0000;
     font-size: 20px;
     position: fixed;
-    top: -20px;
+    top: -50px;
     animation: rains 1s linear infinite;
 }
+
 @keyframes rains {
     from {
         font-size: 20px;
-        top: -20px;
+        top: -50px;
     }
     to {
         font-size: 20px;
         top: 100vh;
     }
+}
+
+.noimage {
+    width: 50px;
+    height: 50px;
+    background-image : url(./Images/droplet.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
